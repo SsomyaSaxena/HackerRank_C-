@@ -10,18 +10,19 @@ int main() {
     int n,q,s=0;
     cin>>n;
     cin>>q;
-    int arr[n];
+    int* arr[n];
 
     while(n>0)
     {
       int l;
       cin>>l;
-      arr[s] = new int[];
+      arr[s] = new int[l];
       for(int i=0;i<l;i++)
       {
           cin>>arr[s][i];
       }
       s++;
+      n--;
     }
 
     while(q>0)
