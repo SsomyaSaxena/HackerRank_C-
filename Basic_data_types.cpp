@@ -10,7 +10,7 @@ int main() {
     double e;
     cin>>a>>b>>c>>d>>e;
     cout<<a<<endl<<b<<endl<<c<<endl;
-    printf("%f",d);
-    printf("\n%lf",e);
+    printf("%0.3f",d);
+    printf("\n%0.9lf",e);
     return 0;
 }
