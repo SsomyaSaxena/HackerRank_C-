@@ -6,11 +6,14 @@ using namespace std;
 vector<int> parseInts(string str) {
 	stringstream ss(str);
     int temp;
+    char ch;
+    vector<int> out;
     while(ss>>temp)
     {
         out.push_back(temp);
         ss>>ch;
     }
+    return out;
 }
 
 int main() {
